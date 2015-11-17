@@ -21,7 +21,7 @@ class Class {
     }
 
     //noinspection JSMethodCanBeStatic
-    @trace
+    @trace.async
     async ['async']() {
         console.log('asynced!');
         return 'asynced';

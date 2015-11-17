@@ -13,8 +13,7 @@ export class ConsoleTarget extends TargetBase {
     }
 
     async supportsAsync(event) {
-        // return event.level !== 'trace';
-        return true;
+        return event.level !== 'trace';
     }
 
     async postAsync(event) {
