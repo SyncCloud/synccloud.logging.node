@@ -1,0 +1,24 @@
+{
+  "name": "synccloud.logging",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/logging",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SyncCloud/synccloud.logging.node.git"
+  },
+  "author": "SyncCloud Team",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/SyncCloud/synccloud.logging.node/issues"
+  },
+  "homepage": "https://github.com/SyncCloud/synccloud.logging.node#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6"
+  }
+}
